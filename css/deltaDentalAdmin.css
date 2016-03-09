@@ -1,0 +1,87 @@
+footer {
+	bottom: 0;
+	position: fixed;
+}
+
+menuheader{
+	background-color:rgb(103,187,73);
+	
+}
+html, body {
+	margin: 0 !important;
+    padding: 0 !important;
+}
+h1 {
+	text-align:center;
+	vertical-align: text-bottom;
+	color: white;
+	background-color:rgb(103,187,73); 
+	height:50px;
+	margin-top:0;
+}
+
+hr {
+	height: 5px;
+	background-color: rgb(0,174,199);	/*light blue*/
+}
+
+table {
+	float: left;
+	/*position: absolute;*/
+	vertical-align:top;
+	position:inherit;
+	margin-left:250px;
+	margin-top:-180px;
+	
+}
+
+td {
+	border: 1px solid rgb(86,61,130);
+	text-align: center;
+	color: rgb(67,176,42);	/*green*/
+	font-size: 20px;
+	padding:0;
+}
+
+th {
+	font-size: 27px;
+	color: rgb(86,61,130);	/*purple*/
+	border-bottom: solid rgb(220,88,42);
+
+}
+
+tr {
+	border: 1px solid rgb(86,61,130);
+
+}
+
+a:link, a:visited { 
+    color: (internal value);
+    cursor: auto;
+}
+
+a:link:active, a:visited:active { 
+    color: (internal value);
+}
+
+ul {
+    list-style-type: none;
+    margin-top: -22px;
+    margin-left:-50px;
+    width: 207px;
+   /* background-color: rgb(194, 226, 233);*/
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: rgb(103,187,73);
+    color: white;
+	text-decoration: none;
+}
